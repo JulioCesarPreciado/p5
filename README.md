@@ -25,7 +25,7 @@ Instalar dependencias
 Correr tailwind
 
 ```bash
-  npx tailwindcss -i ./src/css/main.css -o ./src/dist/tailwind.css --watch
+  npx tailwindcss -i ./src/css/main.css -o ./dist/tailwind.css --watch
 ```
 
 Iniciar server localmente con php

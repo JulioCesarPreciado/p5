@@ -1,2 +1,2 @@
-import './../../node_modules/@fortawesome/fontawesome-free/js/solid';
-import './../../node_modules/@fortawesome/fontawesome-free/js/fontawesome';
+import solid from '@fortawesome/fontawesome-free';
+import fontawesome from '@fortawesome/fontawesome-free';

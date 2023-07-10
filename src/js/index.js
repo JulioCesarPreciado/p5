@@ -1,5 +1,2 @@
-import solid from '@fortawesome/fontawesome-free';
-import fontawesome from '@fortawesome/fontawesome-free';
-
-window.solid = solid;
-window.fontawesome = fontawesome;
+import './../../node_modules/@fortawesome/fontawesome-free/js/solid';
+import './../../node_modules/@fortawesome/fontawesome-free/js/fontawesome';

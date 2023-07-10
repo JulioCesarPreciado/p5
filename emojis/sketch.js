@@ -1,4 +1,4 @@
-const density = 'Ñ@#W$9876543210!abc;:+=,._                ';
+const density = 'HOLAHOLAHOLA✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨';
 
 let video;
 let asciiDiv;
@@ -10,7 +10,7 @@ function setup() {
     video.addClass('hidden');
     asciiDiv = createDiv();
     asciiDiv.addClass('w-full text-center');
-    let main = select('#sandbox'); 
+    let main = select('#sandbox');
     asciiDiv.parent(main);
 }
 
@@ -32,10 +32,7 @@ function draw() {
 
             const c = density.charAt(charIndex);
 
-            if (charIndex >= 27)
-                asciiImage += '&nbsp;'
-            else
-                asciiImage += c;
+            asciiImage += c;
         }
         asciiImage += '<br/>';
     }
